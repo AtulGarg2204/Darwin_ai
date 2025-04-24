@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        playfair: ['"Playfair Display"', 'serif'],
+      },
       colors: {
         gray: {
           850: '#1a1e24', // Custom intermediate shade
